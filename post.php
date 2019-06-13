@@ -22,7 +22,7 @@ $article =  readArticlePage($id);
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Billet simple pour l'Alaska</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@ $article =  readArticlePage($id);
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <a class="navbar-brand" href="index.php">Billet simple pour l'Alaska</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -50,10 +50,10 @@ $article =  readArticlePage($id);
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="index.php">accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="log.php">login</a>
+            <a class="nav-link" href="log.php">connexion</a>
           </li>
         </ul>
       </div>
@@ -85,7 +85,7 @@ $article =  readArticlePage($id);
     $article->miseEnForme();
     ?><hr>
     <div class="com">
-    <h4>Commentaire</h4>
+    <h4>Commentaires</h4>
     <?php
     afficherCom($id);
        ?>
@@ -101,7 +101,7 @@ $article =  readArticlePage($id);
 <br />
 
                      <br />  
-                     <input type="submit" name="addCom" class="btn btn-info" value="send" />  
+                     <input type="submit" name="addCom" class="btn btn-info" value="ENVOYER" />  
                 </form>  
         
   </article>

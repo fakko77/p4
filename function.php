@@ -177,7 +177,7 @@ function readArticle($id){
                      <label>Text</label>  
 
                       <textarea name='area1'   style='width: 100%;'>$donnees[contenu]</textarea>
-<br />
+                     <br />
 
                      <br />  
                      <input type='submit' name='update' class='btn btn-info' value='send' />  
@@ -281,20 +281,20 @@ function tableau(){
             echo "</tr>";
            
             // echo "<td> $donnees[RA] </td>";
-             echo "<td> $donnees[titre] </td>";
-             echo "<td> $donnees[contenu] </td>";
-             echo "<td> $donnees[date] </td>";
+             echo "<td width=15% > $donnees[titre] </td>";
+             echo "<td width=50% > $donnees[contenu] </td>";
+             echo "<td width=10%  > $donnees[date] </td>";
              
              $a = "$donnees[id]";
              echo "<td><a href='delete.php?id=$a'><button
-             type='button'>
-         supprimer
-     </button></a></td>";
-     echo "<td><a href='update.php?id=$a'><button
-     type='button'>
- update
-</button></a></td>";
-echo"<td><a href='admin-com.php?id=$a'><i class='far fa-comments'></i></a></td>";
+                 type='button'>
+                 supprimer
+                </button></a></td>";
+                echo "<td><a href='update.php?id=$a'><button
+                type='button'>
+                update
+                </button></a></td>";
+            echo"<td><a href='admin-com.php?id=$a'><i class='far fa-comments'></i></a></td>";
     
          
          
